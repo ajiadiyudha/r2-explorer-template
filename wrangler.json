@@ -8,6 +8,14 @@
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "single-page-application"
   },
+
+  "routes": [
+    {
+      "pattern": "r2explorer.yudh.site",
+      "custom_domain": true
+    }
+  ],
+
   "r2_buckets": [
     {
       "binding": "bucket",
